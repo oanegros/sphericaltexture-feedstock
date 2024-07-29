@@ -1,5 +1,5 @@
 {% set name = "SphericalTexture" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -23,7 +23,7 @@ requirements:
     - python >=3.9
     - scikit-image
     - numba
-    - pyshtools ==4.10.3
+    - pyshtools ^4.10.3
     - ducc0
     - scipy
     - appdirs
